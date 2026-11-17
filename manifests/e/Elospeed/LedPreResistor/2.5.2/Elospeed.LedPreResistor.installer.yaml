@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Elospeed.LedPreResistor
+PackageVersion: "2.5.2"
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: LedPreResistor-2.5.2\LedPreResistor.exe
+  PortableCommandAlias: LedPreResistor
+ReleaseDate: 2026-11-17
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Elospeed/LedPreResistor/releases/download/v2.5.2/LedPreResistor-2.5.2.zip
+  InstallerSha256: 8E500C6586847DA1F520139AE707B2E1F7CC34014ABC6706BB4F4C2FEDEC8C4A
+ManifestType: installer
+ManifestVersion: 1.10.0
